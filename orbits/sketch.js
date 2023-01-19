@@ -35,7 +35,6 @@ function draw() {
     srd.displayObjects()
 
     if (s1 !== undefined) {
-
         [s1, s2, s3, s4].forEach(s => satelliteMotion(s));
     }
 }
